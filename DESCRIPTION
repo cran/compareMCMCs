@@ -1,7 +1,7 @@
 Package: compareMCMCs
 Type: Package
 Title: Compare MCMC Efficiency from 'nimble' and/or Other MCMC Engines
-Version: 0.5.0
+Version: 0.6.0
 Maintainer: Perry de Valpine <pdevalpine@berkeley.edu>
 Authors@R: c(
     person("Perry", "de Valpine", , "pdevalpine@berkeley.edu", role = c("aut", "cre")),
@@ -13,17 +13,18 @@ Description: Manages comparison of MCMC performance metrics from multiple MCMC a
 License: BSD_3_clause + file LICENSE | GPL (>= 2)
 Encoding: UTF-8
 Depends: nimble
-Imports: R6, ggplot2, grid, reshape2, xtable, coda
+Imports: R6, ggplot2, grid, reshape2, xtable, coda, dplyr, rlang
 Suggests: testthat (>= 3.0.0), knitr, rmarkdown, rjags, rstan
 URL: https://github.com/nimble-dev/compareMCMCs
 BugReports: https://github.com/nimble-dev/compareMCMCs/issues
-RoxygenNote: 7.2.1
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-08-25 19:01:15 UTC; perry
+Packaged: 2024-10-01 20:15:41 UTC; perry
 Author: Perry de Valpine [aut, cre],
   Sally Paganin [aut],
   Daniel Turek [aut],
   Christopher Paciorek [aut]
 Repository: CRAN
-Date/Publication: 2022-09-20 08:26:10 UTC
+Date/Publication: 2024-10-01 21:20:02 UTC
